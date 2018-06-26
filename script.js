@@ -5,9 +5,8 @@ function setup() {
   p5Canvas = createCanvas(800, 600);
   p5Canvas.parent("#p5-canvas");
   myName = select("#my-name");
-  myName.html("[Your Name Here]"); // enter your name here!
+  myName.html("Gladys"); // enter your name here!
 }
-
  /*
   full reference: https://p5js.org/reference/
   line: https://p5js.org/reference/#/p5/line
@@ -19,10 +18,13 @@ function setup() {
   line color, weight, etc: https://p5js.org/reference/#/p5/stroke
  */
 
-// Write all your code inside the draw() function below!
 function draw() {
-  // Example. You can remove when you're ready!
-  background(0, 255, 0); // try changing this to a blue background
-  fill(255, 204, 0);    // Always call fill() before the shape you want to fill in.
-  rect(30, 20, 55, 55); // Draw a 30x20 pixel rectangle at coordinate (55,55)
+  background(230, 230, 250);
+  fill(135, 264, 250);
+  arc(400, 400, 200, 200, 500, 500);
+     fill(135, 264, 250);
+    arc(200, 200, 100, 100, 400, 400);
+        fill(135, 264, 250);
+        arc(100, 100, 100, 100, 300, 300);
 }
+
